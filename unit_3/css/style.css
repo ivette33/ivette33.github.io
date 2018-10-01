@@ -2,8 +2,9 @@
 	text-style: italic;
 }
 .body {
-	color; 
+	background-color: purple;
+	text-align: center;
 }
 .p {
-	
+	color: white;
 }
