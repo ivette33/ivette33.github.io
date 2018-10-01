@@ -3,8 +3,9 @@
 }
 .body {
 	background-color: purple;
-	text-align: center;
+	text-align: center
+	color: white;
 }
-.p {
+#p {
 	color: white;
 }
