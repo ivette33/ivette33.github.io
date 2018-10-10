@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700i');
+
 #slogan {
 	font-style: italic;
 	font-size: 25px;
 	text-indent: 0px;
 	font-color: grey;
 	margin-bottom: 20px
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 body {
@@ -15,7 +19,9 @@ body {
 
 h1 {
 	letter-spacing: 10px;
-	font-family: Verdana, san-serif;
+	font-size: 45px;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
 hr {
@@ -35,15 +41,21 @@ p {
 	color: black;
 	margin: 0 auto;
 	text-indent: 50px
-	line-height: 0.8px;
+	line-height: 2em;
+	font-family: 'Merriweather Sans', sans-serif;
 }
+
 
 ul { 
 	width: 100px;
 	margin: 0 auto;
 	text-align: left;
 	list-style-type: circle;
+	font-size: 18px
+	padding: 10px;
+
  }
+
  footer{
  	margin-top: 30px
  }
