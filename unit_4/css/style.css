@@ -1,0 +1,50 @@
+#slogan {
+	font-style: italic;
+	font-size: 25px;
+	text-indent: 0px;
+	font-color: grey;
+	margin-bottom: 20px
+}
+
+body {
+	background-color: #8AE5E2;
+	text-align: center;
+	color: white;
+	font-family: Montserrat, san-serif; 
+}
+
+h1 {
+	letter-spacing: 10px;
+	font-family: Verdana, san-serif;
+}
+
+hr {
+	border: solid;
+	background-color: none; 
+	color: white
+	height: 1px;
+	width: 100%; 
+}
+ #bcg {
+ 	background-image: url('../images/out.door.party.jpg');
+ 	height: 300px;
+ 	background-size: cover;
+}
+
+p {
+	color: black;
+	margin: 0 auto;
+	text-indent: 50px
+	line-height: 0.8px;
+}
+
+ul { 
+	width: 100px;
+	margin: 0 auto;
+	text-align: left;
+	list-style-type: circle;
+ }
+ footer{
+ 	margin-top: 30px
+ }
+
