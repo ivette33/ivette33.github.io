@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 #slogan {
 	font-style: italic;
@@ -41,8 +42,8 @@ p {
 	color: black;
 	margin: 0 auto;
 	text-indent: 50px
-	line-height: 2em;
-	font-family: 'Merriweather Sans', sans-serif;
+	line-height: 10px;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -53,6 +54,7 @@ ul {
 	list-style-type: circle;
 	font-size: 18px
 	padding: 10px;
+	font-family: 'Merriweather Sans', sans-serif;
 
  }
 
