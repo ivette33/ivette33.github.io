@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#slogan {
+	font-style: italic;
+	font-size: 25px;
+	text-indent: 0px;
+	font-color: black;
+	margin-bottom: 20px
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+	background-color: #8AE5E2;
+	text-align: center;
+	color: white;
+	font-family: Montserrat, san-serif; 
+}
+
+h1 {
+	letter-spacing: 10px;
+	font-size: 45px;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Pacifico', cursive;
+}
+
+hr {
+	border: solid;
+	background-color: none; 
+	color: white
+	height: 1px;
+	width: 100%; 
+}
+ #bcg {
+ 	background-image: url('../images/out.door.party.jpg');
+ 	height: 300px;
+ 	background-size: cover;
+}
+
+p {
+	color: black;
+	margin: 0 auto;
+	text-indent: 50px
+	line-height: 30px;
+	font-weight: 300
+	font-family: 'Roboto', sans-serif;
+}
+
+
+ul { 
+	width: 100px;
+	margin: 0 auto;
+	text-align: left;
+	list-style-type: circle;
+	font-size: 18px
+	padding: 10px;
+	font-family: 'Merriweather Sans', sans-serif;
+
+ }
+
+ footer{
+ 	margin-top: 30px
+ }
+
