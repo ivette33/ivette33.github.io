@@ -30,8 +30,30 @@ footer {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
+	margin-top: 30px; 
 }
 
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
 
 #slogan {
 	font-style: italic;
@@ -41,6 +63,16 @@ footer {
 	margin-bottom: 20px
 	font-family: 'Merriweather Sans', sans-serif;
 }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 
 body {
 	background-color: #8AE5E2;
@@ -90,7 +122,5 @@ ul {
 
  }
 
- footer{
- 	margin-top: 30px
- }
+
 
