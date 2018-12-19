@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+@import url('https://fonts.googleapis.com/css?family=Dosis:700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:700');
 
 
 
 header { 
 	background-color: #4077BE;
-	border: 1px black solid;
 	padding: 20px;
 	 }
 
 body {
 	background-color: #ffffff;
-	text-align: center;
 	color: white;
 }
 
 nav {
 	background-color: #3DCED5;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 15px;
 	text-decoration: none;
 	display: block;
 	padding: 10px 
@@ -43,23 +43,25 @@ a:hover {
 
 main {
 	background-color: #ffffff;
-	border: 1px black solid;
 	padding: 20px;
 }
 
 section {
 	background-color: #ffffff;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 100px;
+	margin: 5px
 }
 
 footer {
 	background-color: #4077BE;
-	border: 1px black solid;
-	padding: 20px;
-	margin-top: 30px; 
+	padding: 30px;
+	margin-top: 50px; 
+	align-content: center;
 }
 
+#wrapper {
+	margin: 0 auto;
+}
 
 #slogan {
 	font-style: italic;
@@ -80,15 +82,15 @@ footer {
 }
 
 .button {
-	font-family: 'Roboto', san-serif;
+	font-family: 'Oxygen', sans-serif;
 	font-weight: 100;
-	font-size: 56px;
-	font-align: center;
-	color: blue;
+	font-size: 40px;
+	color: #ffffff;
 
 	border: 50px solid #FF0000
 	border-radius: 50px
 	padding: 10px 80px;
+	background: #4077BE;
 
 }
 
@@ -97,7 +99,8 @@ h1 {
 	font-size: 45px;
 	font-family: 'Leckerli One', cursive;
 	float: left;
-
+	padding: 10px 20px;
+	display: inline-block;
 }
 
 h2 {
@@ -121,21 +124,29 @@ h2 {
 	font-family: 'Roboto', san-serif;
 	font-size: 15px;
 	letter-spacing: 5px;
+	margin: 5px;
+	float: right;
 }
 
 #midnav {
-	font-family: 'Roboto', san-serif;
-	font-weight: 700
-	font-size: 20px;
-	letter-spacing: 5px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 40px;
+	letter-spacing: 1px;
 	text-decoration: none 
-	color: #ffffff;
-}
-#quote {
-	border-bottom: 4px solid #4077BE
+	color: #4077BE;
+	padding: 15px;
+	margin: 5px;
+	float: center;
 }
 
-p {
+section h2 {
+	font-family: 'Oxygen', sans-serif;
+	border-bottom: 4px solid #4077BE
+	letter-spacing: 0px;
+	color: #4077BE;	
+}
+
+section p {
 	color: black;
 	margin: 0 auto;
 	text-indent: 50px
