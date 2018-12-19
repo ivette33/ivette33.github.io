@@ -4,24 +4,29 @@
 
 
 header { 
-	background-color: #FFED74;
+	background-color: #4077BE;
 	border: 1px black solid;
 	padding: 20px;
 	 }
 
 body {
-	background-color: #8AE5E2;
+	background-color: #ffffff;
 	text-align: center;
 	color: white;
 }
 
 nav {
-	background-color: #E8C66A;
+	background-color: #3DCED5;
 	border: 1px black solid;
 	padding: 20px;
 	text-decoration: none;
 	display: block;
 	padding: 10px 
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 a {
@@ -37,19 +42,19 @@ a:hover {
 }
 
 main {
-	background-color: #E89C6C;
+	background-color: #ffffff;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 section {
-	background-color: #FFE2B8;
+	background-color: #ffffff;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 footer {
-	background-color: #FF957E;
+	background-color: #4077BE;
 	border: 1px black solid;
 	padding: 20px;
 	margin-top: 30px; 
@@ -109,6 +114,7 @@ h2 {
  	background-image: url('../images/pinata.white.png');
  	height: 500px;
  	background-size: cover;
+ 	display: block;
 }
 
 #topnav {
@@ -124,6 +130,9 @@ h2 {
 	letter-spacing: 5px;
 	text-decoration: none 
 	color: #ffffff;
+}
+#quote {
+	border-bottom: 4px solid #4077BE
 }
 
 p {
