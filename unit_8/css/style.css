@@ -6,12 +6,12 @@
 
 
 header { 
-	background-color: #4077BE;
+	background-color: #3DCED5;
 	padding: 20px;
 	 }
 
 header a {
-	background-color: #4077BE;
+	background-color: #3DCED5;
 }
 
 body {
@@ -44,7 +44,6 @@ nav a {
 
 
 a {
-	background-color: #ff7900;
 	color: white;
 	display: inline-block;
 	padding: 20px;
@@ -137,7 +136,7 @@ h2 {
 	letter-spacing: 5px;
 	margin: 5px;
 	float: right;
-	background-color: #4077BE;
+	background-color: #3DCED5;
 
 }
 
