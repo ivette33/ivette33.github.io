@@ -15,6 +15,8 @@ header {
 body {
 	background-color: #ffffff;
 	color: white;
+	font-family: 'Roboto', san-serif;
+	font-size: 40px; 
 }
 
 nav {
@@ -67,7 +69,6 @@ footer {
 	padding: 50px;
 	margin: 0 auto; 
 	align-content: center;
-	border-width: 30px #000000;
 }
 
 #wrapper {
@@ -148,6 +149,11 @@ h2 {
 	padding: 15px;
 	margin: 5px;
 	float: center;
+	display: block;
+}
+
+#contact {
+	font-size: 0.5em;
 }
 
 section h2 {
@@ -162,10 +168,24 @@ section p {
 	margin: 0 auto;
 	line-height: 50px;
 	letter-spacing: 2px;
-	font-size: 40px;
+	font-size: 1em;
 	font-weight: 300;
 	font-family: 'Roboto', san-serif; 
 	display: block;
+}
+
+@media only screen and (max-width: 700px) {
+	#midnav {
+		float: none;
+		width: auto;
+	}
+	section p, h2 {
+		font-size: 30px;
+	}
+
+	h1 {
+		float: center;
+	}
 }
 
 
