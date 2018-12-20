@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+@import url('https://fonts.googleapis.com/css?family=Dosis:700');
+@import url('https://fonts.googleapis.com/css?family=Oxygen:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+
+
+
+header { 
+	background-color: #4077BE;
+	padding: 20px;
+	 }
+
+body {
+	background-color: #ffffff;
+	color: white;
+	font-family: 'Roboto', san-serif;
+	font-size: 40px; 
+}
+
+nav {
+	background-color: #3DCED5;
+	padding: 15px;
+	text-decoration: none;
+	display: block;
+	padding: 10px 
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ footer a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Roboto', san-serif;
+	font-size: 14px;
+	margin: 5px;
+}
+
+
+a {
+	background-color: #ff7900
+	color: white;
+	display: block;
+	float: left;
+	padding: 20px
+}
+
+a:hover {
+	background-color: pink;
+}
+
+main {
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+section {
+	background-color: #ffffff;
+	padding: 80px;
+	margin: 5px
+}
+
+footer {
+	background-color: #4077BE;
+	padding: 50px;
+	margin: 0 auto; 
+	align-content: center;
+}
+
+#wrapper {
+	margin: 0 auto;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 25px;
+	text-indent: 0px;
+	font-color: black;
+	margin-bottom: 20px
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.button {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	color: #ffffff;
+
+	border: 50px solid #FF0000
+	border-radius: 50px
+	padding: 10px 80px;
+	background: #4077BE;
+
+}
+
+h1 {
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-family: 'Leckerli One', cursive;
+	float: left;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+h2 {
+	letter-spacing: 10px;
+	font-size: 40px;
+	font-weight: 700px;
+	font-family: 'Roboto', san-serif;
+	float: left;
+	color: black;
+}
+
+
+#bcg {
+ 	background-image: url('../images/pinata.white_v2.png');
+ 	height: 500px;
+ 	background-size: cover;
+ 	display: block;
+}
+
+#topnav {
+	font-family: 'Roboto', san-serif;
+	font-size: 18px;
+	letter-spacing: 5px;
+	margin: 5px;
+	float: right;
+}
+
+#midnav {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-decoration: none 
+	color: #4077BE;
+	padding: 15px;
+	margin: 5px;
+	float: center;
+	display: block;
+}
+
+#contact {
+	font-size: 0.5em;
+}
+
+section h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	border-bottom: 4px solid #4077BE
+	letter-spacing: none;
+	color: #4077BE;	
+}
+
+section p {
+	color: black;
+	margin: 0 auto;
+	line-height: 50px;
+	letter-spacing: 2px;
+	font-size: 1em;
+	font-weight: 300;
+	font-family: 'Roboto', san-serif; 
+	display: block;
+}
+
+@media only screen and (max-width: 700px) {
+	#midnav {
+		float: none;
+		width: auto;
+	}
+	section p, h2 {
+		font-size: 30px;
+	}
+
+	h1 {
+		float: center;
+	}
+}
+
+
+
+
+
