@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
-@import url('https://fonts.googleapis.com/css?family=Boogaloo');
-@import url('https://fonts.googleapis.com/css?family=Dosis:700');
-@import url('https://fonts.googleapis.com/css?family=Oxygen:700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
 
+* { margin:0; padding:0; box-sizing:border-box; }
 
 
 header { 
 	background-color: #4077BE;
 	padding: 20px;
 	 }
+
+header a {
+	background-color: #4077BE;
+}
 
 body {
 	background-color: #ffffff;
@@ -24,7 +26,7 @@ nav {
 	padding: 15px;
 	text-decoration: none;
 	display: block;
-	padding: 10px 
+	padding: 10px;
 }
 
 nav a {
@@ -42,11 +44,10 @@ nav a {
 
 
 a {
-	background-color: #ff7900
+	background-color: #ff7900;
 	color: white;
-	display: block;
-	float: left;
-	padding: 20px
+	display: inline-block;
+	padding: 20px;
 }
 
 a:hover {
@@ -61,7 +62,7 @@ main {
 section {
 	background-color: #ffffff;
 	padding: 80px;
-	margin: 5px
+	margin: 5px;
 }
 
 footer {
@@ -80,7 +81,7 @@ footer {
 	font-size: 25px;
 	text-indent: 0px;
 	font-color: black;
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
 
 
@@ -99,11 +100,9 @@ footer {
 	font-size: 40px;
 	color: #ffffff;
 
-	border: 50px solid #FF0000
-	border-radius: 50px
-	padding: 10px 80px;
+	border-radius: 10px;
+	padding: 10px 20px;
 	background: #4077BE;
-
 }
 
 h1 {
@@ -138,6 +137,8 @@ h2 {
 	letter-spacing: 5px;
 	margin: 5px;
 	float: right;
+	background-color: #4077BE;
+
 }
 
 #midnav {
@@ -158,7 +159,7 @@ h2 {
 
 section h2 {
 	font-family: 'Roboto Condensed', sans-serif;
-	border-bottom: 4px solid #4077BE
+	border-bottom: 4px solid #4077BE;
 	letter-spacing: none;
 	color: #4077BE;	
 }
