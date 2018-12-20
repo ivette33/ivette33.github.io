@@ -30,6 +30,15 @@ nav a {
 	color: #ffffff;
 }
 
+ footer a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Roboto', san-serif;
+	font-size: 14px;
+	margin: 5px;
+}
+
+
 a {
 	background-color: #ff7900
 	color: white;
@@ -49,15 +58,16 @@ main {
 
 section {
 	background-color: #ffffff;
-	padding: 100px;
+	padding: 80px;
 	margin: 5px
 }
 
 footer {
 	background-color: #4077BE;
-	padding: 30px;
-	margin-top: 50px; 
+	padding: 50px;
+	margin: 0 auto; 
 	align-content: center;
+	border-width: 30px #000000;
 }
 
 #wrapper {
@@ -96,8 +106,8 @@ footer {
 }
 
 h1 {
-	letter-spacing: 5px;
-	font-size: 45px;
+	letter-spacing: 3px;
+	font-size: 40px;
 	font-family: 'Leckerli One', cursive;
 	float: left;
 	padding: 10px 20px;
@@ -115,7 +125,7 @@ h2 {
 
 
 #bcg {
- 	background-image: url('../images/pinata.white.png');
+ 	background-image: url('../images/pinata.white_v2.png');
  	height: 500px;
  	background-size: cover;
  	display: block;
@@ -123,7 +133,7 @@ h2 {
 
 #topnav {
 	font-family: 'Roboto', san-serif;
-	font-size: 15px;
+	font-size: 18px;
 	letter-spacing: 5px;
 	margin: 5px;
 	float: right;
@@ -140,22 +150,22 @@ h2 {
 	float: center;
 }
 
-section h2{
+section h2 {
 	font-family: 'Roboto Condensed', sans-serif;
 	border-bottom: 4px solid #4077BE
-	letter-spacing: -3px;
+	letter-spacing: none;
 	color: #4077BE;	
 }
 
 section p {
 	color: black;
 	margin: 0 auto;
-	text-indent: 50px
 	line-height: 50px;
-	font-size: 30px
-	font-weight: 300
-	font-family: 'Roboto', san-serif;
-	display; block; 
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-weight: 300;
+	font-family: 'Roboto', san-serif; 
+	display: block;
 }
 
 
